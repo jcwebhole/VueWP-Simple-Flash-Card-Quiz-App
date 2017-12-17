@@ -1,5 +1,5 @@
 # Simple Flash Card Quiz App
-[![Github All Releases](https://img.shields.io/github/downloads/jcwebhole/VueWP-Simple-Flash-Card-Quiz-App/total.svg?style=social)]()
+[![Github All Releases](https://img.shields.io/github/downloads/jcwebhole/VueWP-Simple-Flash-Card-Quiz-App/total.svg?style=social)]() [![WordPress](https://img.shields.io/wordpress/v/akismet.svg?style=social)]() [![Built With VueJS](https://img.shields.io/badge/BuiltWith-VueJS-brightgreen.svg)]() [![Built For WordPress REST API](https://img.shields.io/badge/BuiltFor-WP-REST-APIT-lightgrey.svg)]()
 
 >Simple implementation of WP-REST API  
 Created using VueJS CDN and Bootstrap. 
