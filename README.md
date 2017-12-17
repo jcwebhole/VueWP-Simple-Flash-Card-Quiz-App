@@ -25,7 +25,7 @@ Created using VueJS CDN and Bootstrap.
 **Game** http://nqub8.com/projects/wpdemo/vuejs/  
 **Blog** http://nqub8.com/projects/wpdemo/
 
-### Resources / Links
+## Resources / Links
 [![VueJS](https://vuejs.org/images/logo.png)](https://vuejs.org/)
 [![WP-REST API](http://v2.wp-api.org/assets/images/banner.jpg)](http://v2.wp-api.org/)
 [![WordPress](https://s.w.org/about/images/logos/wordpress-logo-hoz-rgb.png)](https://wordpress.org)
