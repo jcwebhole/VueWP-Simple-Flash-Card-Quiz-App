@@ -1,5 +1,7 @@
-# Simple Flash Card Quiz App 
->Simple implementation of WP-REST API
+# Simple Flash Card Quiz App
+[![Github All Releases](https://img.shields.io/github/downloads/jcwebhole/VueWP-Simple-Flash-Card-Quiz-App/total.svg?style=social)]()
+
+>Simple implementation of WP-REST API  
 Created using VueJS CDN and Bootstrap. 
 
 
@@ -10,14 +12,14 @@ Created using VueJS CDN and Bootstrap.
 4. Enjoy the Game
 
 ## Files
-* index.html > Simple HTML file handling the imports for VueJS and Bootstrap CDNs
-* app.js > contains all the basic logic for the game and connection to the WordPress backend
+* index.html > Simple HTML file handling the imports for VueJS and Bootstrap CDNs  
+* app.js > contains all the basic logic for the game and connection to the WordPress backend  
 
 ## Code
-**app.js**(*line 1*): `const backend_endpoint = 'http://nqub8.com/projects/wpdemo';`
-*change backend_endpoint to your WordPress installation URL*
-**app.js**(*line 13*): `max: 5,';`
-*this is the maximum number of questions per quiz*
+**app.js**(*line 1*): `const backend_endpoint = 'http://nqub8.com/projects/wpdemo';`  
+*change backend_endpoint to your WordPress installation URL*  
+**app.js**(*line 13*): `max: 5,';`  
+*this is the maximum number of questions per quiz*  
 
 
 ### Resources / Links
