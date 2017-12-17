@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vue DEMO</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+<body>
+
+<div class="container-fluid" id="app">
+  <div v-if="result.length!=0" class="columns medium-3">
+    <div class="card">
+      <div class="card-block">
+<!-- 
+        <div class="card-title">
+          <div v-html="result.title.rendered"> </div>
+        </div>
+ -->
+      <div class="card-photo" v-if="result._embedded['wp:featuredmedia'][0]">
+          <img v-bind:src="result._embedded['wp:featuredmedia'][0].source_url">
+      </div>
+<!-- 
+        <div class="card-text">
+          <div v-html="result.content.rendered"> </div>
+        </div>
+ -->
+          <br>Score: {{score}}/{{max}}
+          <br><br>
+          <input
+          type="text"
+          class="form-control"
+          placeholder="what is this?"
+          v-model="ans"
+          name="ans"
+          v-on:keyup.13="rnd"
+          autofocus
+          >
+          <button type="button"
+            class="btn btn-secondary"
+            @click="rnd">
+            Submit
+          </button>
+
+      </div>
+    </div>
+  </div>
+
+    <div v-if="counter==max" class="columns medium-3">
+    <br>Final Score: {{score}}/{{max}}
+    <br><br><button type="button"
+      class="btn btn-secondary"
+      @click="restart">
+      Restart
+    </button>
+    </div>
+
+
+  <div v-if="result.length==0 && counter!=max" class="columns medium-3">
+    <br><br><br>Enter quiz name: <input id='quiz' v-model='quiz' type='text' placeholder='Cats'>
+    <button type='button' class='btn btn-secondary' @click='getQuiz'>Take Quiz</button>
+  </div>
+  <div v-if="err !== ''" class="columns medium-3">
+    {{ err }}
+  </div>
+
+</div>
+
+  <script src="https://unpkg.com/vue@2.5.2/dist/vue.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
