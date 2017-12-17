@@ -21,6 +21,9 @@ Created using VueJS CDN and Bootstrap.
 **app.js**(*line 13*): `max: 5,';`  
 *this is the maximum number of questions per quiz*  
 
+## Demo Links
+http://nqub8.com/projects/wpdemo/vuejs/  
+http://nqub8.com/projects/wpdemo/
 
 ### Resources / Links
 [![VueJS](https://vuejs.org/images/logo.png)](https://vuejs.org/)
