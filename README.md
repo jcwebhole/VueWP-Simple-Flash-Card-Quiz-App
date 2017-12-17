@@ -25,6 +25,9 @@ Created using VueJS CDN and Bootstrap.
 **Game** http://nqub8.com/projects/wpdemo/vuejs/  
 **Blog** http://nqub8.com/projects/wpdemo/
 
+## WordCamp 2017 Slides
+https://docs.google.com/presentation/d/1VX2SbjEhoEE8odur37-CNsGSTfBwhX9frh-4KsjS6YM/edit?usp=sharing
+
 ## Resources / Links
 [![VueJS](https://vuejs.org/images/logo.png)](https://vuejs.org/)
 [![WP-REST API](http://v2.wp-api.org/assets/images/banner.jpg)](http://v2.wp-api.org/)
